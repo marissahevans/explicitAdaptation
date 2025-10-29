@@ -1,5 +1,5 @@
 %Perterbation project analysis comparing simulated data sets (created using
-%ModelsSim_v3.m) to the participant's data. Specifically the feedback
+%ModelsSim.m) to the participant's data. Specifically the feedback
 %location and the confidence reports. 11/29/23
 
 
