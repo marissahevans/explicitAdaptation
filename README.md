@@ -1,7 +1,7 @@
 # explicitAdaptation
 Data and code for 'Sensorimotor confidence during explicit motor adaptation' manuscript. 
 
-Abstract
+### Abstract
 Humans can adapt to large and sudden perturbations of sensory feedback. What
 multisensory and motor-execution cues are used to determine confidence in
 action success, and do the dynamics of confidence parallel those of ongoing
@@ -26,7 +26,7 @@ adaptation in addition to prior information. Confidence recovered exponentially 
 pre-adaptation levels after the perturbation ended, but at a slower rate than motor
 learning.
 
-Participants
+### Participants
 Sixteen self-reported right-handed individuals were selected from the New York
 University student body (average age: 24 years, SD: 4.9 years, 6 males). None of the
 participants were familiar with the experimental design. All participants had either
@@ -34,7 +34,7 @@ normal or corrected-to-normal vision, no restrictions on their right arm’s mob
 reported no motor abnormalities. Every participant completed both the control motor-
 awareness task (Task 1) and the primary confidence-judgment task (Task 2).
 
-Experimental Files
+### Experimental Files
 The experimental set up involves a Wacom Cintiq 22 tablet placed on a table below a projector.
 The experimental code runs under the assumption there are 3 screens in use (main computer, tablet and projector). 
 PsychToolBox runs all visualizations through Matlab
@@ -44,7 +44,7 @@ Data is collected through the pen position via GetMouse() and with a Griffin Pow
 'PerturbExpCode.m' is the main shell for running the experiment. This is where you can enter the participant specifications and request the
 control experiment or practice trials. This calls all the other functions in the file accordingly. 
 
-Analysis
+### Analysis
 The primary analysis was performed using the BADS package https://github.com/acerbilab/bads in parallel processing on an HPC cluster. 
 All relevant files are in the 'data' folder but to follow the process yourself run the files in this order:
 1: ModelSim.m (generates .mat files for a LS grid using simulations of the models)
